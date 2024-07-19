@@ -56,14 +56,14 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
+                <img
                   src="/images/logo/logoSoie.jpg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
-                <Image
+                <img
                   src="/images/logo/logoSoie.jpg"
                   alt="logo"
                   width={140}
