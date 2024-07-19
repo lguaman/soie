@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/SoieLogoT.svg"
+                  src="/images/logo/logoSoie.jpg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/SoieLogoGris.svg"
+                  src="/images/logo/logoSoie.jpg"
                   alt="logo"
                   width={140}
                   height={30}
