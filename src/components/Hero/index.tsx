@@ -21,14 +21,14 @@ const Hero = () => {
                 Nuestra colección está diseñada para quienes buscan llevar la moda a otro nivel.
                 </p>
                 <Image
-                  src="/images/products/9.1.png"
+                  src="/9.1.webp"
                   alt="Soie"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/products/9.1.png"
+                  src="/9.1.webp"
                   alt="Soie"
                   width={140}
                   height={30}
