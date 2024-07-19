@@ -20,15 +20,15 @@ const Hero = () => {
                 Gracias por ser parte de nuestra comunidad, donde nos encanta realzar tu estilo, para que te sientas segura, decidida y linda, con piezas que expresan tu personalidad. 
                 Nuestra colección está diseñada para quienes buscan llevar la moda a otro nivel.
                 </p>
-                <Image
-                  src="/9.1.webp"
+                <img
+                  src="/images/products/9.1.webp"
                   alt="Soie"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
-                <Image
-                  src="/9.1.webp"
+                <img
+                  src="/images/products/9.1.webp"
                   alt="Soie"
                   width={140}
                   height={30}
