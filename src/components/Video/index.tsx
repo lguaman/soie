@@ -13,12 +13,17 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Nuestros Servicios"
+          paragraph="
+En Soie Styling, nos comprometemos a ofrecerte una experiencia de compra única con:
+La mejor atención al cliente personalizada: Nuestro equipo está siempre disponible para ayudarte a encontrar la pieza perfecta y resolver cualquier duda.
+Envíos Nacionales: Llegamos a cualquier parte del país para que puedas disfrutar de nuestras joyas sin importar dónde te encuentres.
+Diseños Exclusivos y en tendencia: Contamos con piezas únicas que se adaptan a todos los gustos y necesidades.
+Vive grandes experiencias luciendo los mejores accesorios que complementan tu belleza."
           center
           mb="80px"
         />
-
+{/*}
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
@@ -47,9 +52,11 @@ const Video = () => {
             </div>
           </div>
         </div>
+ */}     
+      
       </div>
 
-      <ModalVideo
+{/*      <ModalVideo
         channel="youtube"
         autoplay={true}
         start={true}
@@ -57,7 +64,7 @@ const Video = () => {
         videoId="L61p2uyiMSo"
         onClose={() => setOpen(false)}
       />
-
+*/}
       <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
     </section>
   );
