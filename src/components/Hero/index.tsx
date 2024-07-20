@@ -158,8 +158,8 @@ const Hero = () => {
                 y2="351.421"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#FFDE4D" />
-                <stop offset="1" stopColor="#FFDE4D" stopOpacity="0" />
+                <stop stopColor="#F9D689" />
+                <stop offset="1" stopColor="#F9D689" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:217"

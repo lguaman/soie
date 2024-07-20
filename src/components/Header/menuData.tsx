@@ -9,17 +9,17 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Acerca de",
+    title: "Acerca",
     path: "/about",
     newTab: false,
   },
-  {
+/*  {
     id: 33,
     title: "Blog",
     path: "/blog",
     newTab: false,
   },
-  {
+*/  {
     id: 3,
     title: "Contacto",
     path: "/contact",

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 
 const Header = () => {
@@ -162,7 +162,8 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-
+                <Container style={{justifyContent:'center'}}>
+              <center>
               <a
                 href="https://wa.me/593999958674"
                 className="whatsapp_float"
@@ -172,6 +173,12 @@ const Header = () => {
                  <Image src={'/images/logo/whatsapp.webp'} width={50} height={50} alt="Chateamos?" />
                  <i className="fa fa-whatsapp whatsapp-icon"></i>
               </a>
+              <Typography
+              >
+                ¿Chateamos?
+              </Typography>
+              </center>
+              </Container>
  
 {/*              <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
