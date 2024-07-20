@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb
+      <Breadcrumb 
         pageName="Contacto"
         description="Llámanos +593999958674."
       />
