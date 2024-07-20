@@ -48,8 +48,8 @@ const Features = async () => {
                 {/* Add your product data here */}
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-              {/*      <Image src="/images/products/9.1.webp" height={100} width={100} alt="Ear Cuffs" className="w-40 h-40 object-cover" />
-               */}   </td>
+                    <Image src="/images/products/9.1.webp" fill alt="Ear Cuffs" className="w-40 h-40 object-cover" />
+                  </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Ear Cuffs
                   </td>
@@ -62,7 +62,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/1.1.webp" alt="Body Chains" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/1.1.webp" fill  alt="Body Chains" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Body Chains
@@ -76,7 +76,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/2.1.webp" alt="Pulseras" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/2.1.webp"  fill alt="Pulseras" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Pulseras
@@ -90,7 +90,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/3.1.webp" alt="Aretes" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/3.1.webp" fill  alt="Aretes" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Aretes  
@@ -104,7 +104,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/4.1.webp" alt="Tobilleras" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/4.1.webp"  fill alt="Tobilleras" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Tobilleras
@@ -118,7 +118,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/5.1.webp" alt="Anillos de Uñas" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/5.1.webp"  fill alt="Anillos de Uñas" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Anillos de Uñas
@@ -132,7 +132,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/6.1.webp" alt="Anillos de Pie" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/6.1.webp" fill  alt="Anillos de Pie" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Anillos de Pie
@@ -146,7 +146,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/7.1.webp" alt="Cadenas de Cabeza" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/7.1.webp" fill  alt="Cadenas de Cabeza" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Cadenas de Cabeza
@@ -160,7 +160,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/8.1.webp" alt="Cadenas de Vientre" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/8.1.webp"  fill alt="Cadenas de Vientre" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Cadenas de Vientre 
@@ -174,8 +174,8 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-             {/*       <Image src="/images/products/9.1.webp" alt="Cadenas de Espalda" width={100} height={100} className="w-40 h-40 object-cover" />
-              */}    </td>
+                    <Image src="/images/products/9.1.webp" fill alt="Cadenas de Espalda" className="w-40 h-40 object-cover" />
+                  </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Cadenas de Espalda  
                   </td>
@@ -188,7 +188,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/10.1.webp" alt="Piercings" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/10.1.webp" fill alt="Piercings" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Piercings
@@ -202,7 +202,7 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/11.1.webp" alt="Soportes de Celulares de Diseño" className="w-40 h-40 object-cover" />
+                    <Image src="/images/products/11.1.webp" fill alt="Soportes de Celulares de Diseño" className="w-40 h-40 object-cover" />
                   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Soportes de Celulares de Diseño 
