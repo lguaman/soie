@@ -125,8 +125,8 @@ const Hero = () => {
                 y2="288"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#FFB22C" />
-                <stop offset="1" stopColor="#FFDE4D" stopOpacity="0" />
+                <stop stopColor="#F9D689" />
+                <stop offset="1" stopColor="#F9D689" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint1_radial_25:217"
