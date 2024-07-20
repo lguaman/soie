@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import Box from "@mui/material/Box";
+import ModalVideo from "react-modal-video";
+
 
 
 const Hero = () => {
@@ -12,23 +15,26 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+              <div className="mx-auto max-w-full max-h-[600px] text-centerr">
+              <Box minHeight={200}></Box>  
+{/*                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Vive grandes experiencias luciendo los mejores accesorios que complementan tu belleza.
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Gracias por ser parte de nuestra comunidad, donde nos encanta realzar tu estilo, para que te sientas segura, decidida y linda, con piezas que expresan tu personalidad. 
                 Nuestra colección está diseñada para quienes buscan llevar la moda a otro nivel.
                 </p>
-                <img
-                  src="/images/logo/ElevaTuEstilo.png"
+*/}           
+                <Image
+                  src="/images/logo/elevaTuEstilo.svg"
                   alt="Soie"
                   width={140}
                   height={30}
+                  
                   className="w-full dark:hidden"
                 />
-                <img
-                  src="/images/logo/ElevaTuEstilo.png"
+                <Image
+                  src="/images/logo/elevaTuEstilo.svg"
                   alt="Soie"
                   width={140}
                   height={30}
@@ -119,8 +125,8 @@ const Hero = () => {
                 y2="288"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FFB22C" />
+                <stop offset="1" stopColor="#FFDE4D" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint1_radial_25:217"
@@ -130,8 +136,8 @@ const Hero = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
               >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#FF4C4C" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF4C4C" stopOpacity="0.08" />
               </radialGradient>
               <radialGradient
                 id="paint2_radial_25:217"
@@ -141,8 +147,8 @@ const Hero = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
               >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#FFB22C" stopOpacity="0" />
+                <stop offset="1" stopColor="#FFB22C" stopOpacity="0.08" />
               </radialGradient>
               <linearGradient
                 id="paint3_linear_25:217"
@@ -152,8 +158,8 @@ const Hero = () => {
                 y2="351.421"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FFDE4D" />
+                <stop offset="1" stopColor="#FFDE4D" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:217"
@@ -163,7 +169,7 @@ const Hero = () => {
                 y2="448.882"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
+                <stop stopColor="#FFDE4D" />
                 <stop offset="1" stopColor="white" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -185,8 +191,8 @@ const Hero = () => {
                 y2="338.63"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#F3FEB8" />
+                <stop offset="1" stopColor="#F3FEB8" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>

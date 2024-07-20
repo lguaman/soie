@@ -33,13 +33,13 @@ const Features = async () => {
                     Imagen
                   </th>
                   <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
-                    Product
+                    Producto
                   </th>
                   <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
-                    Description
+                    Descripción
                   </th>
                   <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
-                    Price
+                    Precio
                   </th>
                 </tr>
               </thead>

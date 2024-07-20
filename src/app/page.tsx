@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Soie, Styling",
-  description: "¡Realza tu estilo, sientete segura y linda!",
+  title: "Soie Styling",
+  description: "¡Eleva tu estilo, sientete segura y linda!",
   // other metadata
 };
 
