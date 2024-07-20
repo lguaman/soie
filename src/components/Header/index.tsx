@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { Container } from "@mui/material";
+
 
 const Header = () => {
   // Navbar toggle
@@ -38,7 +40,9 @@ const Header = () => {
 
   const usePathName = usePathname();
 
+
   return (
+    
     <>
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
@@ -158,6 +162,17 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
+
+              <a
+                href="https://wa.me/593999958674"
+                className="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                 <Image src={'/images/logo/whatsapp.webp'} width={50} height={50} alt="Chateamos?" />
+                 <i className="fa fa-whatsapp whatsapp-icon"></i>
+              </a>
+ 
 {/*              <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signin"
@@ -181,7 +196,9 @@ const Header = () => {
                 </div>
 
           </div>
+          
         </div>
+        
       </header>
     </>
   );
