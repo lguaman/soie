@@ -25,7 +25,7 @@ const Hero = () => {
                 Nuestra colección está diseñada para quienes buscan llevar la moda a otro nivel.
                 </p>
 */}           
-                <Image
+                <img
                   src="/images/logo/elevaTuEstilo.svg"
                   alt="Soie"
                   width={140}
@@ -33,7 +33,7 @@ const Hero = () => {
                   
                   className="w-full dark:hidden"
                 />
-                <Image
+                <img
                   src="/images/logo/elevaTuEstilo.svg"
                   alt="Soie"
                   width={140}
