@@ -26,7 +26,7 @@ const Hero = () => {
                 </p>
 */}           
                 <Image
-                  src="/images/logo/elevatuestilo.svg"
+                  src="/images/logo/Elevatuestilo.svg"
                   alt="Soie"
                   width={140}
                   height={30}
@@ -34,7 +34,7 @@ const Hero = () => {
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/elevatuestilo.svg"
+                  src="/images/logo/Elevatuestilo.svg"
                   alt="Soie"
                   width={140}
                   height={30}
