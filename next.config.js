@@ -2,7 +2,7 @@
 const nextConfig = {
 // output: 'export',
   images: {
-    domains: ["localhost"],
+//    domains: ["localhost"],
     remotePatterns: [
       {
         protocol: "https",

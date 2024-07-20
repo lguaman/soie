@@ -48,8 +48,8 @@ const Features = async () => {
                 {/* Add your product data here */}
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/9.1.webp" alt="Ear Cuffs" className="w-40 h-40 object-cover" />
-                  </td>
+              {/*      <Image src="/images/products/9.1.webp" height={100} width={100} alt="Ear Cuffs" className="w-40 h-40 object-cover" />
+               */}   </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Ear Cuffs
                   </td>
@@ -174,8 +174,8 @@ const Features = async () => {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
-                    <Image src="/images/products/9.1.webp" alt="Cadenas de Espalda" className="w-40 h-40 object-cover" />
-                  </td>
+             {/*       <Image src="/images/products/9.1.webp" alt="Cadenas de Espalda" width={100} height={100} className="w-40 h-40 object-cover" />
+              */}    </td>
                   <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
                     Cadenas de Espalda  
                   </td>
