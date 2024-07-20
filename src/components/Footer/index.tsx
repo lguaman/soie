@@ -19,7 +19,7 @@ const Footer = () => {
                     height={30}
                   />
                   <Image
-                    src="/images/logo/twintivo.svg"
+                    src="/images/logo/SoieLogo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
