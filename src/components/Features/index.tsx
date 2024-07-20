@@ -27,7 +27,7 @@ const Features =  () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Nuestros Productos"
+            title="Explore Nuestra Exclusiva Colección"
             paragraph={""}
             center
           />
@@ -38,24 +38,21 @@ const Features =  () => {
             ))}
           </div>
 */}
-            <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">
-              Explore Nuestra Colección
-            </h2>
 
   <div className="Archive">
             <table className="ArchiveTable">
             <thead>
                 <tr>
-                  <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Imagen
                   </th>
-                  <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Producto
                   </th>
-                  <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Descripción
                   </th>
-                  <th className="px-4 py-3 text-left font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Precio
                   </th>
                 </tr>
@@ -74,9 +71,8 @@ const Features =  () => {
             className="w-40 h-40 object-cover"
           />
         </td>
-        {/* <td>{parsedData.item}</td> */}
-        <td>{parsedData.articulo}</td>
-        <td>{parsedData.descripcion}</td>
+        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.articulo}</td>
+        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.descripcion}</td>
         <td>{parsedData.precio}</td>
       </tr>
     ))}
