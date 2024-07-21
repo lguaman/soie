@@ -5,7 +5,7 @@ import featuresData from "./featuresData";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Papa from 'papaparse';
-
+import { Divider } from "@mui/material";
 
 const Features =  () => {
   const [parsedCsvData, setParsedCsvData] = useState([]);
@@ -22,6 +22,7 @@ const Features =  () => {
       }
       getData();
   }, []);  
+
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
@@ -31,13 +32,22 @@ const Features =  () => {
             paragraph={""}
             center
           />
-
-{/*          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <center>
+          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
-*/}
+          </center>
+            <Divider style={{ paddingTop: "50px" }} />
+          <div className="container" style={{"paddingTop": "50px"}}>
+          <SectionTitle
+            title="Nuestros  Productos"
+            paragraph={""}
+            center
+          />
+          </div>
+
 
   <div className="Archive">
             <table className="ArchiveTable">

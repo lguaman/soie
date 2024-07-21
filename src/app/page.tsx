@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
+
 export const metadata: Metadata = {
   title: "Soie Styling",
   description: "¡Eleva tu estilo, sientete segura y linda!",
@@ -23,14 +24,16 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-{/*      <Video />
+{/*   <Testimonials /> 
       <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
-      <Blog />
-      <Contact />
-*/}    </>
+      <Pricing /> 
+      <Video />  
+      <AboutSectionTwo /> 
+      <AboutSectionOne /> 
+      <Blog /> 
+      <Contact /> 
+*/}
+
+    </>
   );
 }
