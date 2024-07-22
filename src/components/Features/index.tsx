@@ -6,6 +6,9 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Papa from 'papaparse';
 import { Divider } from "@mui/material";
+import Carousel from 'react-material-ui-carousel'
+import { Paper, Button, Card } from '@mui/material'
+
 
 const Features =  () => {
   const [parsedCsvData, setParsedCsvData] = useState([]);
@@ -23,6 +26,30 @@ const Features =  () => {
       getData();
   }, []);  
 
+  var items = [
+    {    
+        name: "Cadena de Mano Styling",
+        description: "¡Probablemente lo mas hermoso que has visto!",
+        image: "/images/products/1.1.webp"
+    },
+    {
+        name: "Cadena de Espalda",
+        description: "Exclusivo diseño!",
+        image: "/images/products/2.1.webp"
+    },
+    {
+      name: "Cadena de Pecho",
+      description: "Hermosos colores y estilos",
+      image: "/images/products/3.1.webp"
+  },
+  {
+      name: "Cadena de Torso",
+      description: "¡Hermosos colores y único estilo!",
+      image: "/images/products/4.1.webp"
+  }
+
+  ]
+
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
@@ -32,14 +59,14 @@ const Features =  () => {
             paragraph={""}
             center
           />
-          <center>
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))}
-          </div>
-          </center>
-            <Divider style={{ paddingTop: "50px" }} />
+
+        <center>
+        <div style={{"paddingTop": "50px", width: "60%"}}>
+          <Carousel>
+            {items.map( (item, i) => <Item key={i} item={item} /> )}
+        </Carousel>
+         </div>
+         </center>
           <div className="container" style={{"paddingTop": "50px"}}>
           <SectionTitle
             title="Nuestros  Productos"
@@ -47,7 +74,6 @@ const Features =  () => {
             center
           />
           </div>
-
 
   <div className="Archive">
             <table className="ArchiveTable">
@@ -102,5 +128,26 @@ const Features =  () => {
     </>
   );
 };
+
+function Item(props)
+{
+    return (
+        <Paper className="Item" elevation={4} square={false}>
+            <h2>{props.item.name}</h2>
+            <h3>{props.item.description}</h3>
+            <Image
+              src={props.item.image} // Use template literal for clarity
+              width={100}
+              height={100}
+              alt={`Product Image for Rings}`} // Dynamic alt text
+              className="w-80 h-80 object-cover"
+            />    
+
+            <Button className="CheckButton">
+                Soie
+            </Button>
+        </Paper>
+    )
+}
 
 export default Features;
