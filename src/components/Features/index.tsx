@@ -69,12 +69,237 @@ const Features =  () => {
          </center>
           <div className="container" style={{"paddingTop": "50px"}}>
           <SectionTitle
-            title="Nuestros  Productos"
+            title="Nuestras Categorias"
             paragraph={""}
             center
           />
           </div>
 
+<div className="flex flex-wrap justify-center gap-4 dark:text-white/70">
+          <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/30.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Ear Cuffs</h2>
+            <p>Adornos para la oreja sin necesidad de perforaciones. Diseños modernos e innovadores que complementan cualquier look.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/87.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Body Chains</h2>
+            <p className="dark:text-white/70">Cadenas corporales que añaden un toque de estilo a tu outfit, perfectas para ocasiones especiales, la playa, o un estilo diario aesthetik.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/69.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title dark:text-white/70">Pulseras</h2>
+            <p className="dark:text-white/70">Desde estilos minimalistas hasta diseños más elaborados, nuestras pulseras están hechas para destacar.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/29.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title dark:text-white/70">Aretes</h2>
+            <p className="dark:text-white/70">Variedad de estilos que van desde lo clásico hasta lo contemporáneo, ideales para tu día a día.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/9.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Tobilleras</h2>
+            <p>Detalles delicados y modernos, perfectos para el verano y para añadir un toque especial a tu estilo.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/45.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Anillos de Uñas</h2>
+            <p>Una tendencia audaz y moderna que realza tus uñas con originalidad.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/23.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Anillos de Pie</h2>
+            <p>Añade un toque de elegancia a tus pies con nuestros anillos diseñados cuidadosamente.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/16.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Cadenas de Cabeza</h2>
+            <p>Accesorios únicos, perfectos para eventos especiales con un estilo romántico y elegante.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/1.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Cadenas de Vientre</h2>
+            <p> Realza tu figura con nuestras cadenas de vientre, ideales para lucir con tus crop tops o en la playa.</p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/70.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Cadenas de Espalda</h2>
+            <p>Diseños sofisticados que añaden un toque de glamour a tu espalda, perfectos para vestidos con escote trasero.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/43.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Piercing</h2>
+            <p>Variedad de delicados piercings que marcan tu estilo.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+        <div className="card glass w-96">
+              <figure>
+            <Image
+              src="/images/products/13.1.webp"
+              alt="Joyas!" 
+              width={200}
+              height={200}
+              />
+          </figure>
+          <div className="card-body dark:text-white/70">
+            <h2 className="card-title">Soportes de Celulares de Diseño</h2>
+            <p>Eleva tu estilo incluso en tu celular, combina la funcionalidad de nuestros soportes con los diseños más kiut.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Ver</button>
+            </div>
+          </div>
+        </div>
+</div>
+
+<div className="container" style={{"paddingTop": "50px"}}>
+          <SectionTitle
+            title="Nuestros  Productos"
+            paragraph={""}
+            center
+          />
+          </div>
   <div className="Archive">
             <table className="ArchiveTable">
             <thead>

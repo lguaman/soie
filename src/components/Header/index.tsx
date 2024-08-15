@@ -75,7 +75,8 @@ const Header = () => {
                   className="hidden w-full dark:block"
                 />
               </Link>
-            </div>
+
+           </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
                 <button
@@ -198,7 +199,7 @@ const Header = () => {
                 </div>
               </div>
 */}            </div>
-                <div>
+                <div className="flex items-center justify-end pr-16 lg:pr-0" style={{justifyContent:'center'}}>
                   <ThemeToggler />
                 </div>
 

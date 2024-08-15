@@ -17,14 +17,16 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-full max-h-[600px] text-centerr">
               <Box minHeight={200}></Box>  
-{/*                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Vive grandes experiencias luciendo los mejores accesorios que complementan tu belleza.
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  ¡Bienvenidos a Soie!
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Gracias por ser parte de nuestra comunidad, donde nos encanta realzar tu estilo, para que te sientas segura, decidida y linda, con piezas que expresan tu personalidad. 
+                </p>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Nuestra colección está diseñada para quienes buscan llevar la moda a otro nivel.
                 </p>
-*/}           
+           
                 <Image
                   src="/images/logo/Elevatuestilo.svg"
                   alt="Soie"
