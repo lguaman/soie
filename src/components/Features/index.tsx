@@ -8,6 +8,9 @@ import Papa from 'papaparse';
 import { Divider } from "@mui/material";
 import Carousel from 'react-material-ui-carousel'
 import { Paper, Button, Card } from '@mui/material'
+import ContactPage from "@/app/contact/page";
+import Contact from "../Contact";
+import Link from "next/link";
 
 
 const Features =  () => {
@@ -90,7 +93,7 @@ const Features =  () => {
             <p>Adornos para la oreja sin necesidad de perforaciones. Diseños modernos e innovadores que complementan cualquier look.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+              <Link href="/categories/earcuffs" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -108,7 +111,7 @@ const Features =  () => {
             <p className="dark:text-white/70">Cadenas corporales que añaden un toque de estilo a tu outfit, perfectas para ocasiones especiales, la playa, o un estilo diario aesthetik.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/bodychains" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -126,7 +129,7 @@ const Features =  () => {
             <p className="dark:text-white/70">Desde estilos minimalistas hasta diseños más elaborados, nuestras pulseras están hechas para destacar.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/pulseras" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -144,7 +147,7 @@ const Features =  () => {
             <p className="dark:text-white/70">Variedad de estilos que van desde lo clásico hasta lo contemporáneo, ideales para tu día a día.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/aretes" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -162,7 +165,7 @@ const Features =  () => {
             <p>Detalles delicados y modernos, perfectos para el verano y para añadir un toque especial a tu estilo.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/tobilleras" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -180,7 +183,7 @@ const Features =  () => {
             <p>Una tendencia audaz y moderna que realza tus uñas con originalidad.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/anillosdeunas" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -198,7 +201,7 @@ const Features =  () => {
             <p>Añade un toque de elegancia a tus pies con nuestros anillos diseñados cuidadosamente.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/anillosdepie" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -216,7 +219,7 @@ const Features =  () => {
             <p>Accesorios únicos, perfectos para eventos especiales con un estilo romántico y elegante.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/cadenasdecabeza" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -233,7 +236,7 @@ const Features =  () => {
             <h2 className="card-title">Cadenas de Vientre</h2>
             <p> Realza tu figura con nuestras cadenas de vientre, ideales para lucir con tus crop tops o en la playa.</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/cadenasdevientre" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -251,7 +254,7 @@ const Features =  () => {
             <p>Diseños sofisticados que añaden un toque de glamour a tu espalda, perfectos para vestidos con escote trasero.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/cadenasdeespalda" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -265,11 +268,11 @@ const Features =  () => {
               />
           </figure>
           <div className="card-body dark:text-white/70">
-            <h2 className="card-title">Piercing</h2>
+            <h2 className="card-title">Piercings</h2>
             <p>Variedad de delicados piercings que marcan tu estilo.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/piercings" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -287,7 +290,7 @@ const Features =  () => {
             <p>Eleva tu estilo incluso en tu celular, combina la funcionalidad de nuestros soportes con los diseños más kiut.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Ver</button>
+            <Link href="/categories/soportedecelulares" className="btn btn-primary">Ver</Link>
             </div>
           </div>
         </div>
@@ -295,12 +298,12 @@ const Features =  () => {
 
 <div className="container" style={{"paddingTop": "50px"}}>
           <SectionTitle
-            title="Nuestros  Productos"
+            title="Todos Nuestros  Productos"
             paragraph={""}
             center
           />
-          </div>
-  <div className="Archive">
+</div>
+<div className="Archive">
             <table className="ArchiveTable">
             <thead>
                 <tr>
@@ -339,17 +342,9 @@ const Features =  () => {
     ))}
 </tbody>
             </table>
-        </div>
-
-
-{/*          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))}
-          </div>
-*/}
-        </div>
-      </section>
+  </div>
+</div>
+</section>
     </>
   );
 };
