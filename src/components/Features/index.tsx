@@ -303,11 +303,11 @@ const Features =  () => {
             center
           />
 </div>
-<div className="Archive">
-            <table className="ArchiveTable">
+<div className="Archive flex justify-center flex-wrap">
+            <table>
             <thead>
                 <tr>
-                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-30 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Imagen
                   </th>
                   <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
@@ -321,11 +321,10 @@ const Features =  () => {
                   </th>
                 </tr>
               </thead>
-
               <tbody>
   {parsedCsvData &&
     parsedCsvData.map((parsedData, index) => (
-      <tr key={index}>
+      <tr key={index} className="dark:bg-black">
         <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600">
           <Image
             src={`/images/products/${parsedData.item}.1.webp`} // Use template literal for clarity
@@ -335,9 +334,9 @@ const Features =  () => {
             className="w-40 h-40 object-cover"
           />
         </td>
-        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.articulo}</td>
-        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.descripcion}</td>
-        <td>{parsedData.precio}</td>
+        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.articulo}</td>
+        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.descripcion}</td>
+        <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.precio}</td>
       </tr>
     ))}
 </tbody>

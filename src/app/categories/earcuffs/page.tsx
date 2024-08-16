@@ -51,7 +51,7 @@ const Earcuffs = () => {
                   </th>
                 </tr>
               </thead>
-          <tbody>
+          <tbody className="dark:text-white dark:bg-black">
               {parsedCsvData &&
                 parsedCsvData.map((parsedData, index) => (
                   <tr key={index}>

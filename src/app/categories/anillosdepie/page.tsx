@@ -64,10 +64,10 @@ const Anillosdepie = () => {
                         className="w-40 h-40 object-cover"
                       />
                     </td>
-                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.codigo}</td>
+                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.codigo}</td>
 {/*                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.articulo}</td> */}
-                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.descripcion}</td>
-                    <td>{parsedData.precio}</td>
+                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.descripcion}</td>
+                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.precio}</td>
                   </tr>
                 ))}
           </tbody>
