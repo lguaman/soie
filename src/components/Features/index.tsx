@@ -15,6 +15,9 @@ import Link from "next/link";
 
 const Features =  () => {
   const [parsedCsvData, setParsedCsvData] = useState([]);
+  const [showFullImage, setShowFullImage] = useState(false);
+  const [selectedImage, setSelectedImage] = useState('');
+
   useEffect(() => {
       async function getData() {
           const response = await fetch("products/list.csv");
@@ -52,6 +55,15 @@ const Features =  () => {
   }
 
   ]
+
+  const handleImageClick = (imageUrl: string) => {
+    setSelectedImage(imageUrl);
+    setShowFullImage(true);
+  };
+
+  const closeFullImage = () => {
+    setShowFullImage(false);
+  };
 
   return (
     <>
@@ -332,7 +344,8 @@ const Features =  () => {
             width={100}
             height={100}
             alt={`Product Image for ${parsedData.item}`} // Dynamic alt text
-            className="w-40 h-40 object-cover"
+            className="w-40 h-40 object-cover cursor-pointer"
+            onClick={() => handleImageClick(`/images/products/${parsedData.item}.1.webp`)}
           />
           <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.item}</div>
         </td>
@@ -345,6 +358,22 @@ const Features =  () => {
   </div>
 </div>
 </section>
+    {showFullImage && (
+      <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="bg-white rounded-lg p-4 shadow-lg">
+          <Image
+            src={selectedImage}
+            alt="Full Size Image"
+            width={600}
+            height={400}
+            className="object-contain"
+          />
+          <button className="mt-4 px-4 py-2 bg-gray-500 text-white rounded-md" onClick={closeFullImage}>
+            Cerrar
+          </button>
+        </div>
+      </div>
+    )}
     </>
   );
 };
