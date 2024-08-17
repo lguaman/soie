@@ -40,10 +40,10 @@ const Anillosdepie = () => {
 {/*                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Código
                   </th>
-*/}                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Producto
                   </th>
-                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+*/}                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Descripción
                   </th>
                   <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
@@ -63,9 +63,10 @@ const Anillosdepie = () => {
                         alt={`Product Image for ${parsedData.item}`} // Dynamic alt text
                         className="w-40 h-40 object-cover"
                       />
-                    </td>
                     <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.codigo}</td>
-{/*                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.articulo}</td> */}
+                    </td>
+{/*                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.codigo}</td>
+                    <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 text-center">{parsedData.articulo}</td> */}
                     <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.descripcion}</td>
                     <td className="px-4 py-3 border-b border-gray-200 dark:border-gray-600 dark:text-white text-center">{parsedData.precio}</td>
                   </tr>
