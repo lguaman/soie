@@ -307,7 +307,7 @@ const Features =  () => {
             <table>
             <thead>
                 <tr>
-                  <th className="px-4 py-30 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                  <th className="px-10 py-30 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
                     Imagen
                   </th>
 {/*                  <th className="px-4 py-3 text-center font-medium text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400"> 
